@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+@media  (max-width:776px) {
+    .hero-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .hl-h{
+        font-size: 3rem !important;
+        font-weight: bold;
+    }
+    .hl-p{
+        font-size: 1.2rem !important;
+        
+    }
+    .ht-p, .ht-h{
+        width: 100%;
+    }
+    .hero-right, .hero-left{
+        width: 100% !important;
+    } 
+    .hero-right img{
+        margin-top: 20px;
+        width: 600px;
+        height: 450px;
+    }
+    /* .company{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .company img{
+        margin: 15px 0;
+    } */
+    marquee img{
+        margin: 0px 2px !important;
+    }
+}
